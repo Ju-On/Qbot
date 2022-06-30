@@ -1,1 +1,32 @@
 Qbot
+
+Classified: LNK Downloader - Inability to obtain stage two payload (.Dat / DLL)
+
+Zip > Html > Zip > lnk
+  // note: next time try using hex editor, cmd rundll32 'file name', right click .lnk file and check 'targets' to see if it contains a payload url, 
+
+************************************************************************
+
+Stage 1 Observed Email Indicators of Compromise (IOCs):
+Malicious File(s):
+File Name: Compensation_747733.html.zip
+MD5: 2bea3657ad3571197b29bbe3e59d8144
+SHA256: f1b59b6294ec2afb6eea4e8ad0e2c3644490ceafa519d71b57a01a5c14204ac6
+File Size: 2610 bytes (2K)
+
+File Name: Compensation_747733.html
+MD5: c012041beffa07ce7abbb0794e4f9f2e
+SHA256: 52a14d17c500d6882a7e962382e9999c13a74f3d8cd658ae2723c028214b8c6d
+File Size: 6,394
+
+Stage 2 Discovered Indicators of Compromise (IOCs):
+Malicious File(s):
+File Name: Compensation_747733_.zip
+MD5: 5c176531fb9b2368b826c265dee910c7
+SHA256: d3875a9b9c9226adbd6c946cd03d0b234e4a83c98005997e5919f2fde53ac7f7
+File Size: 1365 bytes (1K)
+
+File Name: Compensation_747733.lnk
+MD5: 86e2bac511a7bb2c2d44ece02144ddba
+SHA256: 5625135c419332725f7343861d18ebdaa3f97ef9c8a95adac440af271bfa1b79
+File Size: 2717 bytes (2K)
