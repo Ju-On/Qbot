@@ -1,0 +1,61 @@
+Campaign 201
+
+[+] Fake purchasing order email > html attachment > stage 1 payload url download > zip folder password abc444 > folder 3590 > iso > Calc exe 
+  > 7533.dll / windowsCodecs.dll > regsvr32.exe > explorer.exe > C2's
+
+Stage 1 Observed Email Indicators of Compromise (IOCs):
+Malicious File(s):
+File Name: Report_Jul_14_72067.html
+MD5: 33b4383d0de281bdffdca8eeb1eebd21
+SHA256: a0f106de88d9027b58e79a8279ade5636a662bafc2dd3a9b8f62396779482990
+File Size: 1180491 bytes (1M)
+
+Stage 2 Discovered Indicators of Compromise (IOCs):
+Malicious File(s):
+File Name: Report_Jul_14_72067.iso
+MD5: ec68de99577c849ba6ca10301f9f1f69
+SHA256: cd8462a4f5d8f8d14f41951aba38afd944699cdb83aa2f30493c8878edb95c26
+
+
+File Size: 2686976 bytes (2M)
+
+File Name: Report_Jul_14_72067.zip
+MD5: e0029958fa5c833307a17eddeeac4647
+SHA256: 0bebfcd929a743a0525e2b0dd5c1bfb81a6f226bcef5d801d9eae851370f06b5
+File Size: 713580 bytes (696K)
+
+File Name: calc.exe
+MD5: 60b7c0fead45f2066e5b805a91f4f0fc
+SHA256: 80c10ee5f21f92f89cbc293a59d2fd4c01c7958aacad15642558db700943fa22
+File Size: 776,192
+
+File Name: 7533.dll
+MD5: 4f8b2ccd60827cc0cbcf646617ddecdf
+SHA256: 5af6d0b95fb539a95a5aa1983aed7ad4eb29ebdd2a963e3c7ddda6ee19966512
+File Size: 679,424
+
+File Name: WindowsCodecs.dll
+MD5: 21930abbbb06588edf0240cc60302143
+SHA256: 8760c4b4cc8fdcd144651d5ba02195d238950d3b70abd7d7e1e2d42b6bda9751
+File Size: 4,096
+
+Command & Control URL(s):
+hXXp://201[.]172[.]20[.]198:2222
+hXXp://201[.]172[.]20[.]198:2222
+hXXp://217[.]128[.]122[.]92:2222
+hXXp://39[.]49[.]48[.]187:995
+
+Command & Control IP(s):
+217.128.122.92
+39.49.48.187
+201.172.20.198
+...
+...
+...
+...
+
+Malware Family/Delivery Mechanism(s):
+QakBot
+
+Phenotype(s):
+Banker
