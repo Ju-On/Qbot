@@ -1,0 +1,35 @@
+Note:
+Expected process: C:\banners\persuadeNumerators.js - invoked cmd > malicious dll No malicious dll or c2 was recorded however wergmgr.exe was the last and expected process spawned which is in line with the current Qakbot expectations.
+
+Stage 1 Observed Email Indicators of Compromise (IOCs):
+Email Infection URL(s):
+hXXps://shenn[.]my[.]id/tsip/sarcaucintnteuuemt
+
+Email Infection URL IP(s):
+217.21.72.157
+
+Stage 2 Discovered Indicators of Compromise (IOCs):
+Malicious File(s):
+File Name: Art#2821.iso
+MD5: 4f515e3ecf1e114aae447f4f3745659b
+SHA256: d6a65d8fe7fdeaeb1161c4b00e716a726bf56f6d27b9e5f86b72bbef9f734c9c
+File Size: 1261568 bytes (1M)
+
+File Name: Art.lnk
+MD5: c26eedf33931a0681961b08ff4a48ddf
+SHA256: c99fa6dc35fac5ec6c1728fdcbac569f0c9b85fd2648cb5b96ff5a320c4b98b1
+File Size: 1263 bytes (1K)
+
+File Name: Articul2018299573.zip
+MD5: efe8a0bea3961ef52f200be3ba3b5bf6
+SHA256: 79f7442b9a7a3f7461efd7d6bf0d891cca5c86a079deea20fbac3d926aa9b496
+File Size: 606496 bytes (592K)
+
+Malware Family/Delivery Mechanism(s):
+QakBot
+
+Phenotype(s):
+Banker
+
+Malware Family Synopsis:
+QakBot - QakBot is a banking trojan with worm like features for self propagation. It is a modular malware that is capable of information stealing, securing a backdoor, self propagation, and anti-research / anti-virus evasion. This malware also has a sophisticated persistence ability, including frequently changing the file and recompiling the entire binary to evade detection. The harvesting of banking information is carried out by a man-in-the-browser technique. This allows for QakBot to manipulate banking web-pages to direct users to input sensitive information that can be collected and ex-filtrated later.
