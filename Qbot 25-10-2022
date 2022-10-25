@@ -1,0 +1,57 @@
+Link > Zip > ISO > CMD (Lnk) hidden >  cmd red > exe > dat (dll) > wermgr.exe > C2
+
+ 
+[ process hacker > wermgr.exe > strings > condition 7 > http > live C2s ]
+
+ 
+
+Stage 1 Observed Email Indicators of Compromise (IOCs):
+Malicious File(s):
+File Name: Grant#8044.html
+MD5: 6b1ee88cfcc6320a42a7d7a31655c887
+SHA256: 5e3b7accf333bd0144556e152be5000e2df8fc5c4b7a295c7254a7de15e2d61e
+File Size: 791962 bytes (773K)
+
+Stage 2 Discovered Indicators of Compromise (IOCs):
+Malicious File(s):
+File Name: oscar.dat
+MD5: d89e6b9f3d6638e0dd8b83796efabfc1
+SHA256: 81c62e34f00725b37a2acc983306172cbdc26b4ea7326df6b4a6697815c9a3bc
+File Size: 549888 bytes (537K)
+
+File Name: Grant.lnk
+MD5: f4a832279e8154f137c3ffd05ee517b6
+SHA256: db277052eaefc2a4a2c2d9acd0c5f7e6d130dbb9b8fed06d59d4459f0d405e24
+File Size: 1577 bytes (1K)
+
+File Name: Grant_8802.iso
+MD5: 6e52ba43609c5d4261c52c90d8fe1d9a
+SHA256: c6428f619e94eafca3269f9f9aea7906298e687b7c4c8845eac151707d7680ad
+File Size: 837632 bytes (818K)
+
+File Name: ee6bccfd-33a1-463f-85a1-f9b63412cf2d.zip
+MD5: 65192862c09d76aa66a020681cfedd64
+SHA256: db4a8a8362c111cd05c8d26d423309a8960f198ab6a13f2f9771cc9ab0ae97a8
+File Size: 376761 bytes (367K)
+
+Command & Control URL(s):
+hXXps://94[.]36[.]5[.]163/
+hXXp://41[.]108[.]69[.]140:443
+hXXp://176[.]241[.]48[.]233:443
+hXXps://188[.]236[.]139[.]137:3389
+hXXp://156[.]196[.]169[.]123:443
+hXXp://1[.]0[.]215[.]91:443
+hXXps://125[.]25[.]73[.]181:995
+hXXps://176[.]241[.]48[.]233
+
+Command & Control IP(s):
+125.25.73.181
+176.241.48.233
+188.236.139.137
+156.196.169.123
+41.108.69.140
+94.36.5.163
+1.0.215.91
+
+Malware Family/Delivery Mechanism(s):
+QakBot
